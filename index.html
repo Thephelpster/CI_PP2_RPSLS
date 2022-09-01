@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A place to play a rock, paper, scissors, lizard, spock game and play a Star Trek Quiz">
+    <meta name="description"
+        content="A place to play a rock, paper, scissors, lizard, spock game and play a Star Trek Quiz">
     <meta name="keywords" content="RPSLS, rock, paper, scissors, lizard, spock, game, star trek, quiz">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -14,15 +16,46 @@
     <title>|RPSLS Game|</title>
 
 </head>
+
 <body>
-    <div>
+    <!--area for the links and logo-->
+    <div class="game-links">
         <a href="index.html" class="game-links" id="rpsls">RPSLS Game</a>
     </div>
-    <img class="game-button" src="./assets/images/rock.jpg" id="rock" alt="Rock">
-    <img class="game-button" src="./assets/images/paper.jpg" id="paper" alt="paper">
-    <img class="game-button" src="./assets/images/scissors.jpg" id="scissors" alt="scissors">
-    <img class="game-button" src="./assets/images/lizard.jpg" id="lizard" alt="lizard">
-    <img class="game-button" src="./assets/images/spock.jpg" id="spock" alt="spock">
+    <!--area for the game images to sit-->
+    <div class="game-area">
+        <img class="game-button" src="./assets/images/rock.jpg" id="rock" alt="Rock">
+        <img class="game-button" src="./assets/images/paper.jpg" id="paper" alt="paper">
+        <img class="game-button" src="./assets/images/scissors.jpg" id="scissors" alt="scissors">
+        <img class="game-button" src="./assets/images/lizard.jpg" id="lizard" alt="lizard">
+        <img class="game-button" src="./assets/images/spock.jpg" id="spock" alt="spock">
+    </div>
+    <!--game results area to display current choices and scores-->
+    <div class="score-area">
+        <h2>Your Choice: <span id="user-choice"></span></h2>
+        <h2>AI Choice: <span id="computer-choice"></span></h2>
+        <h2>Results: <span id="results"></span></h2>
+        <h2>Your Score: <span id="user-score"></span></h2>
+        <h2>AI Score: <span id="computer-score"></span></h2>
+    </div>
+    <!--game rules area to explain how to game works to the user-->
+    <div class="game-rules">
+        <h1>Game Rules:</h1>
+        <p id="sheldons-rules">As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard,
+            lizard poisons Spock,
+            Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock
+            vaporizes rock, and as it always has, rock crushes scissors.</p>
+            <img src="./assets/images/game-rules.jpg" id="game-rules-image" alt="Game rules illustration">
+    </div>
+    <!--footer containing externial and internal links-->
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+    <!--link to js file-->
     <script src="assets/js/rpsls-game.js" charset="utf-8"></script>
 </body>
+
 </html>
