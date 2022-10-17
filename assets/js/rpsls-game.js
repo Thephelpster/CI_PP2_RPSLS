@@ -11,6 +11,7 @@ possibileChoices.forEach(possibileChoice => possibileChoice.addEventListener('cl
     playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
     generateAiChoice();
+    getResult();
 }));
 
 function generateAiChoice() {
@@ -31,4 +32,16 @@ function generateAiChoice() {
         aiChoice = 'spock';
     }
     aiChoiceDisplay.innerHTML = aiChoice;
+}
+
+function getResult() {
+    if (playerChoice === aiChoice) {
+        results = 'Thats a Draw - No points!';
+    }
+    if (playerchoice === 'rock' && aiChoice === 'paper') {
+        results = "Oh no, you've lost this round. 1 point to the Ai!";
+    }
+    if (playerChoice === 'rock' && aiChoice === 'scissors') {
+        results = "Thats a Win! 1 point to you.";
+    }
 }
