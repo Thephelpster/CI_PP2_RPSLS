@@ -42,63 +42,83 @@ function getResult() {
     }
     if (playerchoice === 'rock' && aiChoice === 'paper') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'rock' && aiChoice === 'scissors') {
         results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'rock' && aiChoice === 'lizard') {
         results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerchoice === 'rock' && aiChoice === 'spock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'paper' && aiChoice === 'rock') {
         results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'paper' && aiChoice === 'scissors') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'paper' && aiChoice === 'lizard') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'paper' && aiChoice === 'spock') {
         results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'scissors' && aiChoice === 'rock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'scissors' && aiChoice === 'paper') {
         results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'scissors' && aiChoice === 'lizard') {
         results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'scissors' && aiChoice === 'spock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'lizard' && aiChoice === 'rock') {
-        results = "Oh no, you've lost this round. 1 point to the Ai!"
+        results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'lizard' && aiChoice === 'paper') {
-        results = "Thats a Win! 1 point to you."
+        results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'lizard' && aiChoice === 'scissors') {
-        results = "Oh no, you've lost this round. 1 point to the Ai!"
+        results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'lizard' && aiChoice === 'spock') {
-        results = "Thats a Win! 1 point to you."
+        results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'spock' && aiChoice === 'rock') {
-        results = "Thats a Win! 1 point to you."
+        results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'spock' && aiChoice === 'paper') {
-        results = "Oh no, you've lost this round. 1 point to the Ai!"
+        results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
     if (playerChoice === 'spock' && aiChoice === 'scissors') {
-        results = "Thats a Win! 1 point to you."
+        results = "Thats a Win! 1 point to you.";
+        incrementPlayerScore();
     }
     if (playerChoice === 'spock' && aiChoice === 'lizard') {
-        results = "Oh no, you've lost this round. 1 point to the Ai!"
+        results = "Oh no, you've lost this round. 1 point to the Ai!";
+        incrementAiScore();
     }
 }
 
@@ -111,3 +131,4 @@ function incrementAiScore() {
     let oldscore = parseInt(document.getElementById("ai-score").innerText);
     document.getElementById("ai-score").innerText = ++oldscore;
 }
+
