@@ -11,5 +11,24 @@ possibileChoices.forEach(possibileChoice => possibileChoice.addEventListener('cl
     playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
     generateAiChoice();
-    getResult();
 }));
+
+function generateAiChoice() {
+    let randomNumber = Math.floor(Math.random() * possibileChoices.length) + 1;
+    if (randomNumber === 1) {
+        aiChoice = 'rock';
+    }
+    if (randomNumber === 2) {
+        aiChoice = 'paper';
+    }
+    if (randomNumber === 3) {
+        aiChoice = 'scissors';
+    }
+    if (randomNumber === 4) {
+        aiChoice = 'lizard';
+    }
+    if (randomNumber === 5) {
+        aiChoice = 'spock';
+    }
+    aiChoiceDisplay.innerHTML = aiChoice;
+}
