@@ -10,7 +10,7 @@ let result;
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id;
-    playerChoiceDisplay.innerHTML = playerChoice;
+    playerChoiceDisplay.innerText = playerChoice;
     generateAiChoice();
     getResult();
 }));
@@ -19,28 +19,28 @@ function generateAiChoice() {
     let randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
     
     if (randomNumber === 1) {
-        aiChoice = 'Rock';
+        aiChoice = 'rock';
     }
     if (randomNumber === 2) {
-        aiChoice = 'Paper';
+        aiChoice = 'paper';
     }
     if (randomNumber === 3) {
-        aiChoice = 'Scissors';
+        aiChoice = 'scissors';
     }
     if (randomNumber === 4) {
-        aiChoice = 'Lizard';
+        aiChoice = 'lizard';
     }
     if (randomNumber === 5) {
-        aiChoice = 'Spock';
+        aiChoice = 'spock';
     }
-    aiChoiceDisplay.innerHTML = aiChoice;
+    aiChoiceDisplay.innerText = aiChoice;
 }
 
 function getResult() {
     if (playerChoice === aiChoice) {
         results = 'Thats a Draw - No points!';
     }
-    if (playerchoice === 'rock' && aiChoice === 'paper') {
+    if (playerChoice === 'rock' && aiChoice === 'paper') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
@@ -52,7 +52,7 @@ function getResult() {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerchoice === 'rock' && aiChoice === 'spock') {
+    if (playerChoice === 'rock' && aiChoice === 'spock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
@@ -120,6 +120,7 @@ function getResult() {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
+    resultDisplay.innerText = results;
 }
 
 function incrementPlayerScore() {
@@ -132,3 +133,8 @@ function incrementAiScore() {
     document.getElementById("ai-score").innerText = ++oldscore;
 }
 
+function resetGame() {
+    document.getElementById('player-score').innerText = 0;
+    document.getElementById('ai-score').innerText = 0;
+    document.getElementById('results').innerText = '';
+}
