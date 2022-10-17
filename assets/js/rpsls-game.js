@@ -99,3 +99,8 @@ function getResult() {
         results = "Oh no, you've lost this round. 1 point to the Ai!"
     }
 }
+
+function incrementPlayerScore() {
+    let oldscore = parseInt(document.getElementById("player-score").innerText);
+    document.getElementById("player-score").innerText = ++oldscore;
+}
