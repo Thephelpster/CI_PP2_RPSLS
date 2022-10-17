@@ -1,13 +1,14 @@
-let aiChoiceDisplay = Document.getElementById('ai-choice');
+let aiChoiceDisplay = document.getElementById('ai-choice');
 let playerChoiceDisplay = document.getElementById('player-choice');
-let resultdisplay = document.getElementById('results');
-let possibileChoices = document.querySelectorAll('.game-button');
+let resultDisplay = document.getElementById('results');
+let possibleChoices = document.querySelectorAll('.game-button');
 let playerChoice;
 let playerScore;
 let aiChoice;
 let aiScore;
+let result;
 
-possibileChoices.forEach(possibileChoice => possibileChoice.addEventListener('click', (e) => {
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
     generateAiChoice();
@@ -15,21 +16,22 @@ possibileChoices.forEach(possibileChoice => possibileChoice.addEventListener('cl
 }));
 
 function generateAiChoice() {
-    let randomNumber = Math.floor(Math.random() * possibileChoices.length) + 1;
+    let randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
+    
     if (randomNumber === 1) {
-        aiChoice = 'rock';
+        aiChoice = 'Rock';
     }
     if (randomNumber === 2) {
-        aiChoice = 'paper';
+        aiChoice = 'Paper';
     }
     if (randomNumber === 3) {
-        aiChoice = 'scissors';
+        aiChoice = 'Scissors';
     }
     if (randomNumber === 4) {
-        aiChoice = 'lizard';
+        aiChoice = 'Lizard';
     }
     if (randomNumber === 5) {
-        aiChoice = 'spock';
+        aiChoice = 'Spock';
     }
     aiChoiceDisplay.innerHTML = aiChoice;
 }
@@ -103,4 +105,9 @@ function getResult() {
 function incrementPlayerScore() {
     let oldscore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++oldscore;
+}
+
+function incrementAiScore() {
+    let oldscore = parseInt(document.getElementById("ai-score").innerText);
+    document.getElementById("ai-score").innerText = ++oldscore;
 }
