@@ -4,6 +4,7 @@
     font-family: 'Comfortaa', cursive;
     color: #1F2E24;
     text-decoration: none;
+    margin: 0;
 }
 
 body {
@@ -101,7 +102,7 @@ footer {
 #return-home {
     position: relative;
     bottom: 330px;
-    right: 300px;
+    left: 100px;
     font-size: 50px;
     background-color: #9db0a3;
     text-decoration: none;
@@ -112,6 +113,8 @@ footer {
 #return-home:hover {
     background-color: #1F2E24;
     color: #9db0a3;
+    border: 2px #9db0a3 solid;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 950px) {
@@ -165,4 +168,21 @@ footer {
         border-radius: 10px;
     }
 
+    #return-home {
+        position: relative;
+        bottom: 100px;
+        left: 10px;
+        font-size: 20px;
+        background-color: #9db0a3;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    #return-home:hover {
+        background-color: #9db0a3;
+        color: #1F2E24;
+        border: 2px #1F2E24 solid;
+        border-radius: 10px;
+    }
 }
