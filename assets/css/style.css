@@ -27,6 +27,16 @@ h2 {
     width: 25%;
 }
 
+#reset-game {
+    background-color: #9db0a3;
+    font-size: 20px;
+    size: 10px;
+    border: 1%;
+    margin: 2%;
+    border-radius: 1%;
+    border-color: #1F2E24;
+}
+
 h1 {
     font-family: 'Nanum Gothic', sans-serif;
     padding-top: 3%;
@@ -44,7 +54,7 @@ h1 {
 }
 
 #game-rules-image {
-    width: 60%;
+    width: 70%;
 }
 
 @media screen and (max-width: 950px) {
@@ -54,7 +64,16 @@ h1 {
         width: 30%;
     }
 
-    .score-area {
-        font-size: medium;
+    h2 {
+        font-size: 20px;
+    }
+
+    #sheldons-rules {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    #game-rules-image {
+        width: 80%;
     }
 }

@@ -17,7 +17,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 
 function generateAiChoice() {
     let randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
-    
+
     if (randomNumber === 1) {
         aiChoice = 'rock';
     }
@@ -37,86 +37,86 @@ function generateAiChoice() {
 }
 
 function getResult() {
-    if (playerChoice === aiChoice) {
+    if (playerChoice == aiChoice) {
         results = 'Thats a Draw - No points!';
     }
-    if (playerChoice === 'rock' && aiChoice === 'paper') {
+    if (playerChoice == 'rock' && aiChoice == 'paper') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'rock' && aiChoice === 'scissors') {
+    if (playerChoice == 'rock' && aiChoice == 'scissors') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'rock' && aiChoice === 'lizard') {
+    if (playerChoice == 'rock' && aiChoice == 'lizard') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'rock' && aiChoice === 'spock') {
+    if (playerChoice == 'rock' && aiChoice == 'spock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'paper' && aiChoice === 'rock') {
+    if (playerChoice == 'paper' && aiChoice == 'rock') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'paper' && aiChoice === 'scissors') {
+    if (playerChoice == 'paper' && aiChoice == 'scissors') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'paper' && aiChoice === 'lizard') {
+    if (playerChoice == 'paper' && aiChoice == 'lizard') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'paper' && aiChoice === 'spock') {
+    if (playerChoice == 'paper' && aiChoice == 'spock') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'scissors' && aiChoice === 'rock') {
+    if (playerChoice == 'scissors' && aiChoice == 'rock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'scissors' && aiChoice === 'paper') {
+    if (playerChoice == 'scissors' && aiChoice == 'paper') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'scissors' && aiChoice === 'lizard') {
+    if (playerChoice == 'scissors' && aiChoice == 'lizard') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'scissors' && aiChoice === 'spock') {
+    if (playerChoice == 'scissors' && aiChoice == 'spock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'lizard' && aiChoice === 'rock') {
+    if (playerChoice == 'lizard' && aiChoice == 'rock') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'lizard' && aiChoice === 'paper') {
+    if (playerChoice == 'lizard' && aiChoice == 'paper') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'lizard' && aiChoice === 'scissors') {
+    if (playerChoice == 'lizard' && aiChoice == 'scissors') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'lizard' && aiChoice === 'spock') {
+    if (playerChoice == 'lizard' && aiChoice == 'spock') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'spock' && aiChoice === 'rock') {
+    if (playerChoice == 'spock' && aiChoice == 'rock') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'spock' && aiChoice === 'paper') {
+    if (playerChoice == 'spock' && aiChoice == 'paper') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
-    if (playerChoice === 'spock' && aiChoice === 'scissors') {
+    if (playerChoice == 'spock' && aiChoice == 'scissors') {
         results = "Thats a Win! 1 point to you.";
         incrementPlayerScore();
     }
-    if (playerChoice === 'spock' && aiChoice === 'lizard') {
+    if (playerChoice == 'spock' && aiChoice == 'lizard') {
         results = "Oh no, you've lost this round. 1 point to the Ai!";
         incrementAiScore();
     }
