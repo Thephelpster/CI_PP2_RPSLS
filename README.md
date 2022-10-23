@@ -91,7 +91,17 @@ The Rock, Paper, Scissors, Lizard, Spock or RPSLS for short website is a site wh
 
 
 ## Wireframes
+<details>
+<summary>Home</summary>
+<br>
+<img src="./assets/readme-images/homepage-pc.png" alt="Home Wireframe PC"> <img src="./assets/readme-images/homepage-mobile.png" alt="Home Wireframe Mobile">
+</details>
 
+<details>
+<summary>Contact</summary>
+<br>
+<img src="./assets/readme-images/contact-pc.png" alt="Contact Wireframe PC"> <img src="./assets/readme-images/contact-mobile.png" alt="Contact Wireframe Mobile">
+</details>
 
 # Technologies Used
 ## Languages
@@ -177,10 +187,54 @@ I put my website through the following validation tools:
 </details>
 
 ### Mock up
-
+<details>
+<summary>Am I Responsive</summary>
+<br>
+<img src="./assets/readme-images/responsive-design.png" alt="Am I Responsive">
+</details>
 
 ### Performance
+<details>
+<summary>Home</summary>
+<br>
+<img src="./assets/readme-images/lighthouse-home-desktop.png" alt="Lighthouse Home Desktop
+">
+</details>
 
+<details>
+<summary>Home</summary>
+<br>
+<img src="./assets/readme-images/lighthouse-home-mobile.png" alt="Lighthouse Home Mobile
+">
+</details>
+
+<details>
+<summary>Contact</summary>
+<br>
+<img src="./assets/readme-images/lighthouse-contact-desktop.png" alt="Lighthouse Contact Desktop
+">
+</details>
+
+<details>
+<summary>Contact</summary>
+<br>
+<img src="./assets/readme-images/lighthouse-contact-mobile.png" alt="Lighthouse Contact Mobile
+">
+</details>
+
+<details>
+<summary>404</summary>
+<br>
+<img src="./assets/readme-images/lighthouse-404-desktop.png" alt="Lighthouse 404 Desktop
+">
+</details>
+
+<details>
+<summary>404</summary>
+<br>
+<img src="./assets/readme-images/lighthouse-404-mobile.png" alt="Lighthouse 404 Mobile
+">
+</details>
 
 ### Device testing
 * iPhone XS Max
@@ -203,33 +257,51 @@ Microsoft Edge
 
 
 # Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: main
+4. Once saved, GitHub will refresh and your website will be publishd from GitHub repository
+5. The link to your published website will appear: "Your site is published at https://thephelpster.github.io/CI_PP2_RPSLS/"
 
+### Forking the GitHub Repository
+1. Go to the GitHub repository
+2. Click on Fork button in top right corner
 
+### Making a Local Clone
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it
+3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
 # Credits
-Images, videos and text not referenced below is owned and created by the developer.
+Images and text not referenced below is owned and created by the developer.
 
 ## Content
-
-
-## Media
-
+Intructions on how to play the RPSLS game came from The Big Bang tv show.
 
 ## Code and Design
 * Colorspace - for the colour pallet
-https://mycolor.space/?hex=%23845EC2&sub=1
+https://mycolor.space/?hex=%239DB0A3&sub=1
 
 * Googlefonts - for the font styles
 https://fonts.google.com/specimen/Comfortaa
+https://fonts.google.com/specimen/Nanum+Gothic
 
-
-* W3schools - for the navbar and carousel bootstrap
-1. https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
-2. https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+* W3schools - for js script ideas and help
+https://www.w3schools.com/jsref/met_document_queryselector.asp
 
 * Favicon.io - for converting the logo into a favicon
 https://favicon.io/
 
-* Font Awesome - for the social media fonts used in the footer
-https://fontawesome.com/
+* EmailJS - for the js and tutorial for linking a contact form with js
+https://www.emailjs.com/docs/tutorial/overview/
 
 # Acknowledgements
+I'd like to thank these people who gave me all the help and support i needed to finish and make this project look as good as it does.
+
+* Mo Shami, my mentor, for all the guidance, help and advice.
+* Kate Cleal, my partner, for designing the 404 page image, the logo image, the game buttons and being my spell checker for all the text and giving me the time to be able to complete this project.
+* 
