@@ -9,12 +9,12 @@ window.onload = function () {
         emailjs.sendForm('contact_service', 'contact_form', this)
             .then(function () {
                 console.log('SUCCESS!');
-                alert('Message sent')
+                alert('Message sent');
             }, function (error) {
                 console.log('FAILED...', error);
             });
     });
-}
+};
 
 function resetForm() {
     document.getElementById('contact-form').reset();
