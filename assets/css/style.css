@@ -7,6 +7,8 @@
     margin: 0;
 }
 
+/* Game Page */
+
 body {
     background-color: #9db0a3;
     width: 100%;
@@ -90,6 +92,8 @@ h1 {
     width: 70%;
 }
 
+/* footer */
+
 footer {
     width: 100%;
     padding-top: 30px;
@@ -114,6 +118,49 @@ footer {
     border: 2px #1F2E24 solid;
     border-radius: 10px;
 }
+
+/* contact page */
+
+#form-area {
+    height: 50vw;
+}
+
+#contact-form {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background-color: #E7EDDC;
+    padding: 1%;
+    padding-bottom: 5%;
+}
+
+.form-input {
+    font-size: 30px;
+    width: 70%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.form-buttons {
+    margin-left: 19%;
+    margin-right: 19%;
+    background-color: #1F2E24;
+    color: #9db0a3;
+    border: 2px #E7EDDC solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form-buttons:hover {
+    background-color: #9db0a3;
+    color: #1F2E24;
+    border: 2px #E7EDDC solid;
+    border-radius: 10px;
+}
+
+/* 404 error page */
 
 #image-404 {
     width: 100%;
@@ -142,6 +189,8 @@ footer {
     * {
         margin: 0;
     }
+
+    /* Game Page */
 
     .game-links {
         height: 30vw;
@@ -195,6 +244,8 @@ footer {
         padding-bottom: 10%;
     }
 
+    /* footer */
+
     footer {
         font-size: 20px;
     }
@@ -215,6 +266,8 @@ footer {
         border: 2px #1F2E24 solid;
         border-radius: 10px;
     }
+
+    /* 404 error page */
 
     #return-home {
         position: relative;
