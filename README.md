@@ -1,11 +1,11 @@
 # Rock, Paper, Scissors, Lizard, Spock Game
 Developer : Jamie Phelps
 
-![company logo](./assets/icon/android-chrome-192x192.png)
+![company logo](./assets/icons/android-chrome-192x192.png)
 
 
 
-[Live Webpage]()
+[Live Webpage](https://thephelpster.github.io/CI_PP2_RPSLS/)
 
 # Table of Content
 
@@ -44,22 +44,31 @@ Developer : Jamie Phelps
 
 # Project Description
 
-
+The Rock, Paper, Scissors, Lizard, Spock or RPSLS for short website is a site where people to go to play the new version of the classic rock paper scissors game againist an ai opponant  
 
 # Project Goals
+* Enjoy a game of RPSLS against an Ai
+* Track the score Against the Ai
+* Learn the rules of RPSLS
 
 ## User Goals
+* 
 
 ## Site Owner Goals
-
+* For the players to play and enjoy a game of RPSLS
+* For players to tell others about the game 
 
 # User Experience
 
 ## Target Audience
-
+* The Big Bang Theory watchers and fans
+* Star Trek fans
+* Orginial Rock Paper Scissors fans
 
 ## User Requrements and Expectations
-
+* Easy to navigate site.
+* Simple layout throughout the site to make finding information quick and easy.
+* Accessiblity.
 
 ## User Stories
 ### First Time User
@@ -94,10 +103,8 @@ Developer : Jamie Phelps
 * Git
 * GitHub
 * GitPod
-* Bootstrap
 * Balsamiq
 * Google Fonts
-* Font Awesome
 * Favicon.io
 * W3S Tutourials
 
@@ -106,7 +113,8 @@ Developer : Jamie Phelps
 
 
 ## Future Features
-
+* A score limit and leaderboard
+* A time delay for the Ai choice to make it feel more like your playing against a real person
 
 # Validation
 I put my website through the following validation tools:
