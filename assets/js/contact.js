@@ -18,5 +18,4 @@ window.onload = function () {
 
 function resetForm() {
     document.getElementById('contact-form').reset();
-
 }
