@@ -94,17 +94,19 @@ h1 {
 
 /* footer */
 
-footer {
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: inline;
+#page-footer {
     font-size: 30px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    padding: 1%;
+    padding-bottom: 5%;
 }
 
 .footer-links {
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #1F2E24;
     color: #9db0a3;
     border: 2px #9db0a3 solid;
@@ -144,8 +146,8 @@ footer {
 }
 
 .form-buttons {
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #1F2E24;
     color: #9db0a3;
     border: 2px #E7EDDC solid;
@@ -246,24 +248,67 @@ footer {
 
     /* footer */
 
-    footer {
+    #page-footer {
         font-size: 20px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        padding: 1%;
+        padding-bottom: 5%;
     }
 
     .footer-links {
-        margin-left: 9%;
-        margin-right: 9%;
+        margin-left: 5%;
+        margin-right: 5%;
         background-color: #1F2E24;
         color: #9db0a3;
         border: 2px #9db0a3 solid;
         border-radius: 10px;
         padding: 10px;
     }
-
+    
     .footer-links:hover {
         background-color: #9db0a3;
         color: #1F2E24;
         border: 2px #1F2E24 solid;
+        border-radius: 10px;
+    }
+
+    /* form page */
+
+    #form-area {
+        height: 115vw;
+    }
+
+    #contact-form {
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .form-input {
+        font-size: 20px;
+        width: 90%;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    .form-buttons {
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: #1F2E24;
+        color: #9db0a3;
+        border: 2px #E7EDDC solid;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    .form-buttons:hover {
+        background-color: #9db0a3;
+        color: #1F2E24;
+        border: 2px #E7EDDC solid;
         border-radius: 10px;
     }
 
