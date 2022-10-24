@@ -1,3 +1,11 @@
+/**
+ * rpsls-game.js is where the game data is kept.
+ */
+
+/**
+ * variables to to be displayed and changed
+ */
+
 let aiChoiceDisplay = document.getElementById('ai-choice');
 let playerChoiceDisplay = document.getElementById('player-choice');
 let resultDisplay = document.getElementById('results');
@@ -14,6 +22,10 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
     generateAiChoice();
     getResult();
 }));
+
+/**
+ * function to randomly generate ai choice
+ */
 
 function generateAiChoice() {
     let randomNumber = Math.floor(Math.random() * possibleChoices.length) + 1;
@@ -35,6 +47,10 @@ function generateAiChoice() {
     }
     aiChoiceDisplay.innerText = aiChoice;
 }
+
+/**
+ * win function to decide who won the round
+ */
 
 function getResult() {
     if (playerChoice == aiChoice) {
@@ -123,15 +139,21 @@ function getResult() {
     resultDisplay.innerText = results;
 }
 
+/** function to increment the players score on the game page */
+
 function incrementPlayerScore() {
     let oldscore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++oldscore;
 }
 
+/** function to increment the ai score on the game page */
+
 function incrementAiScore() {
     let oldscore = parseInt(document.getElementById("ai-score").innerText);
     document.getElementById("ai-score").innerText = ++oldscore;
 }
+
+/** function to reset score on the game page */
 
 function resetGame() {
     document.getElementById('player-score').innerText = 0;
