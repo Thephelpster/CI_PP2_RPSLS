@@ -52,7 +52,8 @@ The Rock, Paper, Scissors, Lizard, Spock or RPSLS for short website is a site wh
 * Learn the rules of RPSLS
 
 ## User Goals
-* 
+* To play as many games of RPSLS as the I want
+* To see which option the Ai has chosen to inform my next move
 
 ## Site Owner Goals
 * For the players to play and enjoy a game of RPSLS
@@ -82,13 +83,16 @@ The Rock, Paper, Scissors, Lizard, Spock or RPSLS for short website is a site wh
 
 # Design
 ## Design Choices
-
+When choosing the design for this website i decided to go with fairly neutral greens so that the bright images of the game would stand out best.
 
 ## Colour
-
+When picking the colours for this website I used the Colorspace colour generator to help find ones that would complement each other on the screen. 
+![Colour Generator](./assets/readme-images/colour-palettes.png)
 
 ## Fonts
-
+To  find the fonts I  wanted to use, I  searched through the google fonts webpage to find two different but complementary fonts. 
+![Google Font Comfortaa](./assets/readme-images/font-comfortaa.png)
+![Google Font Nanum Gothic](./assets/readme-images/font-nanum.png)
 
 ## Wireframes
 <details>
@@ -300,6 +304,8 @@ https://favicon.io/
 https://www.emailjs.com/docs/tutorial/overview/
 
 # Acknowledgements
+This has been a far more challenging build as it took me a lot long to get to grips with JS and testing the elements to amke sure they all worked as I wanted them to. I restarted this project twice before finally getting to this version but in the end it has helpped me understand JS a lot better than before starting this project.
+
 I'd like to thank these people who gave me all the help and support i needed to finish and make this project look as good as it does.
 
 * Mo Shami, my mentor, for all the guidance, help and advice.
