@@ -310,11 +310,13 @@ Google Chrome
 Microsoft Edge
 
 ### Testing user stories
+
 1. As a first time user, I want to be able to play a RPSLS game.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Game buttons | click on RPSLS choice | adds choice to score area | highlights and logs on score area |
+
 
 2. As a first time user, I want to be able to learn the rules of the RPSLS game.
 
@@ -322,11 +324,13 @@ Microsoft Edge
 |-------------|------------|---------------------|-------------------|
 | Game rules | scroll down to rules | look for the rules | see rules |
 
+
 3. As a first time user, i want to be able to see the score.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Score area | scroll down to score area | see score area | see the current score |
+
 
 4. As a returning user, I want to be able to see what choices the Ai makes.
 
@@ -334,11 +338,13 @@ Microsoft Edge
 |-------------|------------|---------------------|-------------------|
 | Score area | scroll down to score area | look for the ai score | see the ai score |
 
+
 5. As a returning user, I want to be able to leave a message for what I liked and want can be improved.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact form | scroll to footer and click on contact page link | load contact page and fill out form | fill out form |
+
 
 6. As a returning user, i want to be to show my friends the game.
 
@@ -346,13 +352,16 @@ Microsoft Edge
 |-------------|------------|---------------------|-------------------|
 | Footer links | scroll down to footer and click on facebook | link to facebook to share the page | link to facebook to share on users page |
 
+
 7. As the website owner, I want people to enjoy the game as many times as they want.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | reset button | click the reset button | reset the game without reseting the page | reset the game without reseting the page |
 
+
 8. As the website owner, I want people to tell their friends about the game.
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | footer links | scroll down to footer and click on facebook | link to facebook to share the page | link to facebook to share on users page |
