@@ -73,12 +73,18 @@ The Rock, Paper, Scissors, Lizard, Spock or RPSLS for short website is a site wh
 
 ## User Stories
 ### First Time User
-
+1. As a first time user, I want to be able to play a RPSLS game.
+2. As a first time user, I want to be able to learn the rules of the RPSLS game.
+3. As a first time user, i want to be able to see the score.
 
 ### Returning User
-
+4. As a returning user, I want to be able to see what choices the Ai makes.
+5. As a returning user, I want to be able to leave a message for what I liked and want can be improved.
+6. As a returning user, i want to be to show my friends the game.
 
 ### Website Owner
+7. As the website owner, I want people to enjoy the game as many times as they want.
+8. as the website owner, I want people to tell their friends about the game.
 
 
 # Design
@@ -119,12 +125,63 @@ To  find the fonts I  wanted to use, I  searched through the google fonts webpag
 * GitPod
 * Balsamiq
 * Google Fonts
+* Font Awesome
 * Favicon.io
 * W3S Tutourials
 
 # Features
 ## Existing Features
+Favicon
+The first feature on the website is the use of a favicon on every page’s tab. The favicon is a much smaller version of the website logo that changes depending on what device it’s being shown on.
 
+![favicon 16x16](./assets/icons/favicon-16x16.png) ![favicon 32x32](./assets/icons/favicon-32x32.png)
+
+Game Buttons
+The game buttons are the most important element that you can see on the page. They are the elements that allow the user to be able to play the game, thats also why they are the most colourful and eye catching of the whole page. They also change colour depending on if you've selected them as part of the game.
+
+User stories covered: 1, 7
+
+![game-buttons](./assets/readme-images/game-buttons.png)
+
+Score Area
+The Score area is an important part of the game as it shows the user thier score compared to the Ais and let the user know if they won or lost the round.
+
+User stories covered: 3, 4
+
+![score-area](./assets/readme-images/score-area.png)
+
+Reset Button
+The reset button is located just below the score area so if the user wants to reset the game without reloading the page they can.
+
+User stories covered: 7
+
+![reset-button](./assets/readme-images/reset-button.png)
+
+Game Rules
+The rules of the game are towards the bottom of the page and there for a reminder to players that already know them or to inform the players who havent learnt them.
+
+User stories covered: 2
+
+![game-rules](./assets/readme-images/game-rules.png)
+
+Footer Links
+The footer is built up of 3 link buttons. 2 of which link to the pages on the site and one is a link to facebook.
+
+User stories covered: 5, 6, 8
+
+![footer-links](./assets/readme-images/footer-links.png)
+
+Contact Form
+On the contact page there is the contact form where users of the page can contact the site owner to leave messages either to say how much they like the game or to state ways that the owner can improve the game.
+
+User stories covered: 5
+
+![contact-form](./assets/readme-images/contact-form.png)
+
+404 Page
+the last page is the custom 404 error page that will display if the user imputs the wrong address into the browser window.
+
+![404-page](./assets/readme-images/404-page.png)
 
 ## Future Features
 * A score limit and leaderboard
@@ -253,12 +310,61 @@ Google Chrome
 Microsoft Edge
 
 ### Testing user stories
+1. As a first time user, I want to be able to play a RPSLS game.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Game buttons | click on RPSLS choice | adds choice to score area | highlights and logs on score area |
 
+2. As a first time user, I want to be able to learn the rules of the RPSLS game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Game rules | scroll down to rules | look for the rules | see rules |
+
+3. As a first time user, i want to be able to see the score.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Score area | scroll down to score area | see score area | see the current score |
+
+4. As a returning user, I want to be able to see what choices the Ai makes.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Score area | scroll down to score area | look for the ai score | see the ai score |
+
+5. As a returning user, I want to be able to leave a message for what I liked and want can be improved.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact form | scroll to footer and click on contact page link | load contact page and fill out form | fill out form |
+
+6. As a returning user, i want to be to show my friends the game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer links | scroll down to footer and click on facebook | link to facebook to share the page | link to facebook to share on users page |
+
+7. As the website owner, I want people to enjoy the game as many times as they want.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| reset button | click the reset button | reset the game without reseting the page | reset the game without reseting the page |
+
+8. As the website owner, I want people to tell their friends about the game.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| footer links | scroll down to footer and click on facebook | link to facebook to share the page | link to facebook to share on users page |
 
 ## Bugs
 | **Bug** | **Fix** |
-
+| ----------- | ----------- |
+| position of elements on iphone5 screen size | add media queries to change how elements look on different sized screens |
+| linking js script pages to game page | double check root and spelling to make sure everything is correct |
+| reset form button sending emails | change the js to a more simple function |
+| email address would come up as suggestion on name input on form | change the name element to email in the email input of the form  |
+| wrong messages win messages coming up when playing the game | check the game rules to make sure the matched the js win conditions |
 
 # Deployment
 The website was deployed using GitHub Pages by following these steps:
@@ -304,10 +410,9 @@ https://favicon.io/
 https://www.emailjs.com/docs/tutorial/overview/
 
 # Acknowledgements
-This has been a far more challenging build as it took me a lot long to get to grips with JS and testing the elements to amke sure they all worked as I wanted them to. I restarted this project twice before finally getting to this version but in the end it has helpped me understand JS a lot better than before starting this project.
+This has been a far more challenging build as it took me a lot long to get to grips with JS and testing the elements to amke sure they all worked as I wanted them to. I restarted this project twice before finally getting to this version but in the end it has helped me understand JS a lot better than before starting this project.
 
 I'd like to thank these people who gave me all the help and support i needed to finish and make this project look as good as it does.
 
 * Mo Shami, my mentor, for all the guidance, help and advice.
 * Kate Cleal, my partner, for designing the 404 page image, the logo image, the game buttons and being my spell checker for all the text and giving me the time to be able to complete this project.
-* 
