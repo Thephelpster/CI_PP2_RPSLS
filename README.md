@@ -418,6 +418,9 @@ https://favicon.io/
 * EmailJS - for the JS and tutorial for linking a contact form with JS
 https://www.emailjs.com/docs/tutorial/overview/
 
+* Youtube - video for the starting point for my RPSLS game
+https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=291s
+
 # Acknowledgements
 This has been a far more challenging build as it took me a lot longer to get to grips with JS and testing the elements to make sure they all worked as I wanted them to. I restarted this project twice before finally getting to this version but in the end it has helped me understand JS a lot better than before starting this project.
 
